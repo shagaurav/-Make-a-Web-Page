@@ -1,0 +1,284 @@
+body {
+     background-color: #E6E6E6;
+     font-family: helvetica;
+}
+
+a {
+     text-decoration: none;
+     color: red;
+}
+
+h1 {
+  margin: 0;
+  font-size: 300%;
+}
+
+#container {
+    background-color: white;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #FF2C2C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    text-decoration: underline;
+    width: 200px;
+    float: left;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav .selected{
+  font-weight: bold;
+}
+
+#main {
+  width: 900px;
+  float: right;
+}
+
+#heading {
+  text-decoration: underline;
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+.line {
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+@keyframes slider {
+
+0% {
+    left: 0%;
+}
+
+5% {
+     left: 0%;
+}
+
+10% {
+     left: -100%;
+}
+
+15% {
+     left: -100%;
+}
+
+20% {
+    left: -200%;
+}
+
+25% {
+     left: -200%;
+}
+
+30% {
+     left: -300%;
+}
+
+35% {
+     left: -300%;
+}
+
+40% {
+     left: -400%;
+}
+
+45% {
+    left: -400%;
+}
+
+50% {
+     left: -500%;
+}
+
+55% {
+      left: -500%;
+}
+
+60% {
+     left: -600%;
+}
+
+65% {
+     left: -600%;
+}
+
+70% {
+     left: -700%;
+}
+
+75% {
+     left: -700%;
+}
+
+80% {
+     left: -800%;
+}
+
+85% {
+     left: -800%;
+}
+
+90% {
+     left: -900%;
+}
+
+100% {
+     left: -900%;
+}
+
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure img {
+    width: 10%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+
+}
+
+.section {
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 10px 0;
+}
+
+@keyframes slider2 {
+
+0% {
+    left: 0;
+}
+
+20% {
+     left: 0;
+}
+
+40% {
+     left: -100%;
+}
+
+60% {
+    left: -100%;
+}
+
+80% {
+     left: -200%;
+}
+
+100% {
+     left: -200%;
+}
+
+}
+
+.slider2 {
+    overflow: hidden;
+}
+
+.slider2 figure img {
+    width: 10%;
+    float: left;
+}
+
+.slider2 figure {
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 7s slider2 infinite;
+}
+
+.conclusion {
+  color: red;
+}
+
+@keyframes slider5 {
+
+0% {
+    left: 0;
+}
+
+20% {
+     left: 0;
+}
+
+35% {
+     left: -100%;
+}
+
+50% {
+    left: -100%;
+}
+
+65% {
+    left: -100%;
+}
+
+75% {
+    left: -100%;
+}
+
+85% {
+     left: -200%;
+}
+
+100% {
+     left: -200%;
+}
+
+}
+
+#slider5 {
+    overflow: hidden;
+}
+
+#slider5 figure img {
+    width: 10%;
+    float: left;
+}
+
+#slider5 figure {
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 9s slider5 infinite;
+}
+
+#footer {
+  clear: both;
+  padding: 20px;
+  background-color: #999999;
+  color: white;
+  text-align: right;
+}
